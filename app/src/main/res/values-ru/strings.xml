@@ -1,0 +1,251 @@
+<resources>
+    <string name="app_name">HyperPlay</string>
+    <string name="app_subtitle">Локальный аудиоплеер Liquid Glass</string>
+    <string name="notif_channel_name">Воспроизведение и Суперостров HyperPlay</string>
+    <string name="notif_channel_desc">Управление воспроизведением и интеграция с Hyper Island</string>
+    <string name="widget_name">Виджет HyperPlay</string>
+
+    <string name="shortcut_shuffle_short">Перемешать</string>
+    <string name="shortcut_shuffle_long">Случайное воспроизведение всех треков</string>
+    <string name="shortcut_continue_short">Продолжить</string>
+    <string name="shortcut_continue_long">Возобновить или поставить на паузу</string>
+    <string name="shortcut_fav_short">Избранное</string>
+    <string name="shortcut_fav_long">Открыть избранные треки</string>
+
+    <string name="perm_audio_title">Требуется доступ к аудиофайлам</string>
+    <string name="perm_audio_desc">HyperPlay воспроизводит локальную музыку с вашего устройства. Разрешите доступ к аудио для сканирования медиатеки (приложение не использует интернет).</string>
+    <string name="perm_grant_btn">Разрешить доступ</string>
+    <string name="perm_open_settings_btn">Открыть настройки</string>
+    <string name="library_scanning">Индексация локальной фонотеки…</string>
+    <string name="library_empty_title">Аудиофайлы не найдены</string>
+    <string name="library_empty_desc">Скопируйте файлы MP3, FLAC, AAC, OPUS или WAV в папку Music на телефоне и нажмите «Обновить».</string>
+    <string name="btn_rescan">Обновить медиатеку</string>
+
+    <plurals name="tracks_count">
+        <item quantity="one">%1$d трек</item>
+        <item quantity="few">%1$d трека</item>
+        <item quantity="many">%1$d треков</item>
+        <item quantity="other">%1$d треков</item>
+    </plurals>
+
+    <string name="sec_tracks">Треки</string>
+    <string name="sec_albums">Альбомы</string>
+    <string name="sec_artists">Исполнители</string>
+    <string name="sec_genres">Жанры</string>
+    <string name="sec_folders">Папки</string>
+    <string name="sec_playlists">Плейлисты</string>
+    <string name="sec_favorites">Избранное</string>
+    <string name="sec_recent_added">Недавно добавленные</string>
+    <string name="sec_recent_played">Недавно играли</string>
+    <string name="sec_most_played">Чаще всего</string>
+    <string name="search_hint">Поиск по названию, артисту, альбому, папке…</string>
+    <string name="sort_by">Сортировка</string>
+    <string name="sort_title">По названию</string>
+    <string name="sort_artist">По исполнителю</string>
+    <string name="sort_album">По альбому</string>
+    <string name="sort_date">По дате добавления</string>
+    <string name="sort_duration">По длительности</string>
+    <string name="sort_year">По году</string>
+    <string name="back_to_list">Назад</string>
+
+    <string name="action_play_next">Играть следом</string>
+    <string name="action_add_queue">Добавить в конец очереди</string>
+    <string name="action_add_playlist">Добавить в плейлист</string>
+    <string name="action_file_info">Сведения о файле и тегах</string>
+    <string name="action_share_file">Поделиться файлом</string>
+    <string name="action_delete_device">Удалить с устройства</string>
+    <string name="queue_title_fmt">Очередь воспроизведения (%1$d)</string>
+    <string name="playlist_new_btn">Новый плейлист</string>
+    <string name="playlist_import_m3u">Импорт M3U</string>
+    <string name="playlist_export_m3u">Экспорт M3U</string>
+    <string name="playlist_name_hint">Название плейлиста</string>
+    <string name="sleep_timer_btn">Таймер сна</string>
+    <string name="sleep_off">Выкл</string>
+    <string name="sleep_15m">15 мин</string>
+    <string name="sleep_30m">30 мин</string>
+    <string name="sleep_60m">60 мин</string>
+    <string name="sleep_end_of_track">До конца трека</string>
+
+    <string name="cd_play_pause">Воспроизвести или Пауза</string>
+    <string name="cd_previous">Предыдущий трек</string>
+    <string name="cd_next">Следующий трек</string>
+    <string name="cd_shuffle">Случайный порядок</string>
+    <string name="cd_repeat">Режим повтора</string>
+    <string name="cd_album_art">Обложка альбома</string>
+    <string name="cd_favorite">В избранное</string>
+    <string name="cd_queue">Открыть очередь</string>
+    <string name="unknown_artist">Неизвестный исполнитель</string>
+    <string name="unknown_album">Неизвестный альбом</string>
+    <string name="unknown_genre">Неизвестный жанр</string>
+    <string name="now_playing_idle">Выберите трек для начала воспроизведения</string>
+    <string name="audio_output_fmt">Выход: %1$s • Сессия #%2$d</string>
+    <string name="speed_fmt">%1$sx</string>
+    <string name="by_author_fmt">by %1$s</string>
+    <string name="action_ok">ОК</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_copy">Скопировать</string>
+    <string name="action_clear">Очистить</string>
+    <string name="err_no_browser">Не удалось открыть ссылку (браузер не найден)</string>
+
+    <string name="nav_library">Библиотека</string>
+    <string name="nav_playlists">Плейлисты</string>
+    <string name="nav_eq">Звук и EQ</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_system">Система</string>
+    <string name="now_playing_header">СЕЙЧАС ИГРАЕТ</string>
+    <string name="cd_close_now_playing">Свернуть плеер</string>
+    <string name="cd_toggle_lyrics">Показать текст песни</string>
+    <string name="lyrics_not_found">Локальный файл .lrc или встроенный текст для этого трека не найден.</string>
+    <string name="stage_placeholder_desc">Готово.</string>
+
+    <string name="eq_screen_title">Звук и Эквалайзер</string>
+    <string name="eq_screen_subtitle">Эффекты сессии ExoPlayer и 64-битный Biquad DSP</string>
+    <string name="eq_reset_btn">Сбросить</string>
+    <string name="eq_active_profile_fmt">Профиль: %1$s</string>
+    <string name="eq_session_route_fmt">Сессия #%1$d • %2$s</string>
+    <string name="eq_presets_label">Пресеты эквалайзера</string>
+    <string name="eq_preset_flat">Ровный</string>
+    <string name="eq_preset_bass">Бас</string>
+    <string name="eq_preset_voice">Голос</string>
+    <string name="eq_preset_rock">Рок</string>
+    <string name="eq_preset_pop">Поп</string>
+    <string name="eq_preset_jazz">Джаз</string>
+    <string name="eq_preset_classical">Классика</string>
+    <string name="eq_preset_electronic">Электроника</string>
+    <string name="eq_preset_custom">Свой</string>
+    <string name="eq_preamp_label">Предусилитель (Preamp)</string>
+    <string name="eq_bass_label">Усиление баса (Low-Shelf 95 Гц)</string>
+    <string name="eq_surround_label">Объёмный звук (Mid/Side сцена)</string>
+    <string name="eq_volume_boost_label">Усиление громкости плеера</string>
+    <string name="eq_balance_label">Баланс Левый / Правый</string>
+    <string name="eq_mono_label">Моно-режим (сложение каналов)</string>
+    <string name="eq_soft_limiter_label">Мягкий лимитер против хрипа (tanh)</string>
+    <string name="eq_skip_silence_label">Пропускать тишину в треках</string>
+    <string name="eq_verify_effects_btn">Проверить эффекты</string>
+
+    <!-- Настройки и О приложении -->
+    <string name="set_sec_playback">Воспроизведение и переходы</string>
+    <string name="set_sec_library">Библиотека и папки</string>
+    <string name="set_sec_appearance">Внешний вид и Liquid Glass</string>
+    <string name="set_gapless">Бесшовное воспроизведение (Gapless)</string>
+    <string name="set_crossfade">Плавный перекрёстный переход (Fade 0–12 с)</string>
+    <string name="set_replaygain">Нормализация громкости ReplayGain</string>
+    <string name="set_auto_bt">Автовозобновление при подключении Bluetooth</string>
+    <string name="set_remember_queue">Восстанавливать очередь и позицию при запуске</string>
+    <string name="set_min_duration">Фильтр минимальной длительности трека</string>
+    <string name="set_hide_voice_notes">Скрывать голосовые мессенджеров и рингтоны</string>
+    <string name="set_artwork_colors">Извлекать цвет акцента из обложки трека</string>
+    <string name="set_show_visualizer">Показывать визуализатор на экране Now Playing</string>
+    <string name="theme_label">Тема оформления:</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_amoled">AMOLED Чёрная</string>
+    <string name="theme_system">Системная</string>
+    <string name="blur_radius_label">Радиус размытия стекла (Haze)</string>
+    <string name="glass_density_label">Плотность тонировки стекла</string>
+    <string name="powersave_glass_toggle">Режим экономии заряда (упрощённое стекло)</string>
+    <string name="language_label">Язык приложения:</string>
+    <string name="lang_system">Как в системе</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_en">English</string>
+
+    <string name="sec_island">Суперостров (Hyper Island) и Уведомления</string>
+    <string name="island_routing_label">Режим выбора острова / уведомления:</string>
+    <string name="island_style_label">Стиль компактного острова:</string>
+    <string name="island_lockscreen_toggle">Показывать остров на экране блокировки и AOD</string>
+    <string name="island_open_notif_btn">Настройки уведомлений</string>
+    <string name="island_btn_prev">Назад</string>
+    <string name="island_btn_play">Старт</string>
+    <string name="island_btn_pause">Пауза</string>
+    <string name="island_btn_next">Далее</string>
+
+    <string name="sec_data">Резервное копирование и сброс</string>
+    <string name="btn_export_json">Экспорт JSON</string>
+    <string name="btn_import_json">Импорт JSON</string>
+    <string name="btn_reset_settings">Сбросить все настройки</string>
+    <string name="confirm_reset_title">Сбросить все настройки?</string>
+    <string name="confirm_reset_msg">Настройки воспроизведения, эквалайзера, острова и оформления вернутся к значениям по умолчанию.</string>
+    <string name="toast_exported">Настройки экспортированы в JSON</string>
+    <string name="toast_imported_ok">Настройки восстановлены из JSON</string>
+    <string name="toast_imported_err">Ошибка чтения файла JSON</string>
+    <string name="toast_copied">Скопировано в буфер обмена</string>
+
+    <string name="sec_about_author">О приложении и Авторе</string>
+    <string name="about_author_role">Автор приложения</string>
+    <string name="about_version_fmt">Версия %1$s (%2$d)</string>
+    <string name="about_copyright_fmt">Copyright © %1$s %2$s • Лицензия MIT</string>
+    <string name="btn_author_github">GitHub</string>
+    <string name="btn_source_code">Исходный код</string>
+    <string name="btn_github_releases">GitHub Releases</string>
+
+    <!-- Вкладка Система -->
+    <string name="sys_manufacturer_codename_fmt">Производитель: %1$s • Код: %2$s</string>
+    <string name="sys_sec_os">Система и прошивка</string>
+    <string name="sys_sec_hw">Аппаратная платформа и дисплей</string>
+    <string name="sys_sec_island">Суперостров: Самопроверка и Журнал событий</string>
+    <string name="sys_sec_caps_fmt">Матрица возможностей (%1$d активно)</string>
+    <string name="sys_sec_manage">Диагностика и экспорт</string>
+    <string name="sys_os_family">Оболочка ОС</string>
+    <string name="sys_rom_region">Регион прошивки</string>
+    <string name="sys_android_ver">Версия Android</string>
+    <string name="sys_sec_patch">Патч безопасности</string>
+    <string name="sys_build_id">Номер сборки</string>
+    <string name="sys_rom_integrity">Статус целостности ROM</string>
+    <string name="sys_rom_custom">Признаки кастомной AOSP прошивки</string>
+    <string name="sys_rom_stock">Штатная вендорная прошивка</string>
+    <string name="sys_soc">Процессор (SoC)</string>
+    <string name="sys_ram">Оперативная память (ОЗУ)</string>
+    <string name="sys_screen">Экран и плотность</string>
+    <string name="sys_refresh_hdr">Частота и HDR</string>
+    <string name="sys_form_factor">Форм-фактор</string>
+    <string name="sys_cutout">Вырез камеры (Cutout)</string>
+    <string name="sys_island_strategy">Выбранная стратегия</string>
+    <string name="sys_island_focus_status">Статус фокусных уведомлений</string>
+    <string name="sys_btn_island_selftest">Самотест острова</string>
+    <string name="sys_island_selftest_header">Результат самопроверки острова:</string>
+    <string name="sys_island_log_title_fmt">Журнал событий острова (%1$d / 100)</string>
+    <string name="sys_island_log_empty">Событий пока нет. Нажмите «Самотест острова» или включите трек.</string>
+    <string name="sys_btn_copy_report">Скопировать отчёт</string>
+
+    <!-- Онбординг -->
+    <string name="onb_title_1">Добро пожаловать в HyperPlay</string>
+    <string name="onb_desc_1">Локальный музыкальный плеер в эстетике Liquid Glass с быстрой индексацией Room и полным отсутствием доступа в интернет.</string>
+    <string name="onb_title_2">ExoPlayer и 64-битный Biquad DSP</string>
+    <string name="onb_desc_2">5-полосный эквалайзер, фильтр баса Low-Shelf, расширение стереосцены Mid/Side и отдельные профили для Bluetooth-устройств.</string>
+    <string name="onb_title_3">Xiaomi Hyper Island и Тексты .lrc</string>
+    <string name="onb_desc_3">Управляйте музыкой из Суперострова Xiaomi или Live Updates на Android 16+ и читайте синхронные тексты песен на экране Now Playing.</string>
+    <string name="onb_title_4">Доступ к аудио и уведомлениям</string>
+    <string name="onb_desc_4">Разрешите чтение локальных аудиофайлов для сканирования фонотеки и показ уведомлений для работы медиа-панели.</string>
+    <string name="onb_step_fmt">Шаг %1$d из %2$d</string>
+    <string name="onb_back">Назад</string>
+    <string name="onb_next">Далее</string>
+    <string name="onb_start">Начать работу</string>
+
+    <!-- Диагностика звука (A/B и Телеметрия) -->
+    <string name="diag_audio_sec_title">Диагностика звука (A/B и Телеметрия)</string>
+    <string name="diag_audio_hint">Переключайте звенья тракта на лету или запустите эталонный сигнал для проверки чистоты звука.</string>
+    <string name="diag_pure_mode_on">Чистый режим: ВКЛ (Обход DSP)</string>
+    <string name="diag_pure_mode_off">Чистый режим (Отключить всё)</string>
+    <string name="diag_safe_preset_btn">Безопасный режим</string>
+    <string name="diag_sine_1khz_btn">Синус 1 кГц (−12 дБ)</string>
+    <string name="diag_pink_noise_btn">Розовый шум (−12 дБ)</string>
+    <string name="diag_stop_signal">Стоп сигнал</string>
+    <string name="diag_ab_switches_title">Переключатели тракта A/B (в реальном времени)</string>
+    <string name="diag_sw_dsp">64-битный программный DSP (Biquad Бас, Сцена, C1 Лимитер)</string>
+    <string name="diag_auto_headroom">Авто-компенсация запаса по уровню (Headroom)</string>
+    <string name="diag_dither_16bit">TPDF-дизеринг при переводе в 16 бит</string>
+    <string name="diag_hw_eq">Аппаратный эквалайзер (сессия ExoPlayer)</string>
+    <string name="diag_hw_bass">Аппаратный эффект BassBoost</string>
+    <string name="diag_hw_virt">Аппаратный эффект Virtualizer</string>
+    <string name="diag_hw_loudness">Аппаратный LoudnessEnhancer</string>
+    <string name="diag_audio_log_fmt">Журнал диагностики звука (%1$d / 200)</string>
+
+    <!-- Детектор прерываний и Журнал воспроизведения (300 событий) -->
+    <string name="drop_sec_title">Прерывания и Журнал воспроизведения</string>
+    <string name="drop_summary_zero">Прерываний зафиксировано: 0 (Чистое непрерывное воспроизведение)</string>
+    <string name="drop_summary_count_fmt">Прерываний: %1$d • Последнее в %2$s</string>
+    <string name="drop_stress_start_btn">Тест на прерывания (5 мин)</string>
+    <string name="drop_stress_stop_btn">Остановить тест</string>
+    <string name="drop_timeline_title_fmt">Хронология воспроизведения (%1$d / 300 событий)</string>
+    <string name="diag_pause_scanner">Откладывать фоновое сканирование медиатеки во время игры</string>
+</resources>

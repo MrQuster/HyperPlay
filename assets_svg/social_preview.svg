@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <defs>
+    <linearGradient id="dropBanner" x1="25%" y1="15%" x2="80%" y2="90%">
+      <stop offset="0%" stop-color="#00F5D4"/>
+      <stop offset="100%" stop-color="#00A8E8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="#070B14"/>
+  <rect x="32" y="32" width="1216" height="576" rx="36" fill="#0C1222" stroke="#1E293B" stroke-width="3"/>
+  <g transform="translate(110, 160) scale(0.31)">
+    <rect width="1024" height="1024" rx="224" fill="#070B14" stroke="#00F5D4" stroke-width="10"/>
+    <path d="M 512 204 C 512 204 756 476 756 644 C 756 779 647 860 512 860 C 377 860 268 779 268 644 C 268 476 512 204 512 204 Z"
+          fill="url(#dropBanner)"/>
+    <path d="M 486 284 C 430 364 338 504 332 616 C 330 652 364 654 372 618 C 388 532 454 404 504 318 C 518 294 500 266 486 284 Z"
+          fill="#FFFFFF" fill-opacity="0.34"/>
+    <path d="M 452 548 L 452 742 C 452 758 470 768 484 759 L 634 662 C 647 653 647 637 634 628 L 484 531 C 470 522 452 532 452 548 Z"
+          fill="#070B14"/>
+  </g>
+  <text x="480" y="275" fill="#FFFFFF" font-family="sans-serif" font-size="82" font-weight="900">HyperPlay</text>
+  <text x="484" y="345" fill="#00F5D4" font-family="sans-serif" font-size="32" font-weight="700">Liquid Glass Local Music Player for Android</text>
+  <text x="484" y="410" fill="#94A3B8" font-family="sans-serif" font-size="25">Media3 ExoPlayer • 64-Bit Biquad DSP • Xiaomi HyperIsland</text>
+  <text x="484" y="475" fill="#64748B" font-family="monospace" font-size="22">github.com/MrQuster/HyperPlay</text>
+</svg>

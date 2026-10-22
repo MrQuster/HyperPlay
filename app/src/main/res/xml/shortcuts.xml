@@ -1,0 +1,35 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcut_shuffle"
+        android:enabled="true"
+        android:icon="@drawable/ic_stat_play"
+        android:shortcutShortLabel="@string/shortcut_shuffle_short"
+        android:shortcutLongLabel="@string/shortcut_shuffle_long">
+        <intent
+            android:action="io.github.mrquster.hyperplay.SHORTCUT_SHUFFLE"
+            android:targetPackage="io.github.mrquster.hyperplay"
+            android:targetClass="io.github.mrquster.hyperplay.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="shortcut_continue"
+        android:enabled="true"
+        android:icon="@drawable/ic_stat_play"
+        android:shortcutShortLabel="@string/shortcut_continue_short"
+        android:shortcutLongLabel="@string/shortcut_continue_long">
+        <intent
+            android:action="io.github.mrquster.hyperplay.SHORTCUT_CONTINUE"
+            android:targetPackage="io.github.mrquster.hyperplay"
+            android:targetClass="io.github.mrquster.hyperplay.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="shortcut_favorites"
+        android:enabled="true"
+        android:icon="@drawable/ic_stat_play"
+        android:shortcutShortLabel="@string/shortcut_fav_short"
+        android:shortcutLongLabel="@string/shortcut_fav_long">
+        <intent
+            android:action="io.github.mrquster.hyperplay.SHORTCUT_FAVORITES"
+            android:targetPackage="io.github.mrquster.hyperplay"
+            android:targetClass="io.github.mrquster.hyperplay.MainActivity" />
+    </shortcut>
+</shortcuts>

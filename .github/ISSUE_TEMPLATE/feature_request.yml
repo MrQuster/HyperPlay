@@ -1,0 +1,12 @@
+name: Feature Request
+description: Suggest an improvement for HyperPlay
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature Description
+      description: Describe what you would like to see and how it should work.
+    validations:
+      required: true
