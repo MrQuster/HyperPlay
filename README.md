@@ -1,15 +1,25 @@
 <div align="center">
-  <img src="docs/icon-512.png" width="112" height="112" alt="HyperPlay icon" />
-  <h1>HyperPlay</h1>
-  <p>Local music player for Android with Liquid Glass UI, 64-bit Biquad DSP, and Xiaomi Hyper Island support</p>
-  <p>
-    <b>English</b> •
-    <a href="README.ru.md">Русский</a> •
-    <a href="https://github.com/MrQuster/HyperPlay/releases/latest">Download APK (Releases)</a>
-  </p>
-</div>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/m3/hero-en-dark.svg">
+  <img src="docs/m3/hero-en-light.svg" width="100%" alt="HyperPlay — Local music player for Android">
+</picture>
+
+<br/>
+
+[![Release](https://img.shields.io/github/v/release/MrQuster/HyperPlay?style=for-the-badge&color=425E91&labelColor=1E2025)](https://github.com/MrQuster/HyperPlay/releases/latest)
+[![License](https://img.shields.io/badge/License-MIT-3E4759?style=for-the-badge&labelColor=1E2025)](LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/MrQuster/HyperPlay/ci.yml?style=for-the-badge&color=3E4759&labelColor=1E2025&label=CI)](https://github.com/MrQuster/HyperPlay/actions/workflows/ci.yml)
+[![Android](https://img.shields.io/badge/Android-10%2B%20(API%2029%2B)-3E4759?style=for-the-badge&labelColor=1E2025)](app/build.gradle.kts)
+
+**English** · [Русский](README.ru.md) · [Download APK](https://github.com/MrQuster/HyperPlay/releases/latest)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/m3/wave-dark.svg">
+  <img src="docs/m3/wave-light.svg" width="100%" alt="">
+</picture>
+
+</div>
 
 HyperPlay is an offline music player for Android 10 (API 29) and newer. It plays local audio files stored on the device, indexes large libraries in Room, and uses a translucent glass interface with real-time backdrop blur. The app does not request the `INTERNET` permission.
 

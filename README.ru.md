@@ -1,16 +1,25 @@
-```markdown
 <div align="center">
-  <img src="docs/icon-512.png" width="112" height="112" alt="HyperPlay icon" />
-  <h1>HyperPlay</h1>
-  <p>Локальный музыкальный плеер для Android в стиле Liquid Glass с 64-битным Biquad DSP и поддержкой Xiaomi Hyper Island</p>
-  <p>
-    <a href="README.md">English</a> •
-    <b>Русский</b> •
-    <a href="https://github.com/MrQuster/HyperPlay/releases/latest">Скачать APK (Releases)</a>
-  </p>
-</div>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/m3/hero-ru-dark.svg">
+  <img src="docs/m3/hero-ru-light.svg" width="100%" alt="HyperPlay — локальный музыкальный плеер для Android">
+</picture>
+
+<br/>
+
+[![Release](https://img.shields.io/github/v/release/MrQuster/HyperPlay?style=for-the-badge&color=425E91&labelColor=1E2025)](https://github.com/MrQuster/HyperPlay/releases/latest)
+[![License](https://img.shields.io/badge/Лицензия-MIT-3E4759?style=for-the-badge&labelColor=1E2025)](LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/MrQuster/HyperPlay/ci.yml?style=for-the-badge&color=3E4759&labelColor=1E2025&label=CI)](https://github.com/MrQuster/HyperPlay/actions/workflows/ci.yml)
+[![Android](https://img.shields.io/badge/Android-10%2B%20(API%2029%2B)-3E4759?style=for-the-badge&labelColor=1E2025)](app/build.gradle.kts)
+
+[English](README.md) · **Русский** · [Скачать APK](https://github.com/MrQuster/HyperPlay/releases/latest)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/m3/wave-dark.svg">
+  <img src="docs/m3/wave-light.svg" width="100%" alt="">
+</picture>
+
+</div>
 
 HyperPlay — офлайн-аудиоплеер для Android 10 (API 29) и новее. Он воспроизводит локальные музыкальные файлы с памяти телефона, индексирует большие фонотеки в базу Room и оформлен в виде полупрозрачных стеклянных панелей с размытием фона. Приложение не запрашивает разрешение `INTERNET`.
 
